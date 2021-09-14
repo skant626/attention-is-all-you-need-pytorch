@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=${gpu} python train.py \
 -lr_mul ${lr_mul} \
 -b 256 \
 -warmup 4000 \
--epoch 200 \
+-epoch 23 \
 -seed 1 \
 -output_dir output/lr_mul_${lr_mul}-scale_${scale_emb_or_prj} \
 -use_tb
